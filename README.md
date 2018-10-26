@@ -31,5 +31,5 @@ e pw `openhabian`.
     sudo apt update 
     sudo apt upgrade
     ```
-1. nealla cartella `/etc/openhab2/items` creare file `[user].items` dove si trovano le definizione dei pin con il relè deguendo il documento ufficiale
-1. entrare nella cartella `/etc/openhab2/rules` creare file `[user].rules` dove si trovano le regole  seguendo ildocumento ufficiale 
+1. Nella cartella `/etc/openhab2/items` creare il file `[user].items` e definire i pin di collegamento ai relé secondo la [guida ufficiale](https://www.openhab.org/docs/configuration/items.html#introduction)
+1. Entrare nella cartella `/etc/openhab2/rules` e creare il file `[user].rules` e definire le regole degli interruttori seguendo la [documentazione ufficiale](https://www.openhab.org/docs/configuration/rules-dsl.html#defining-rules)
